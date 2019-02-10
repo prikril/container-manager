@@ -1,0 +1,73 @@
+.dragicon {
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 5, 5);
+}
+
+.cubic-icon {
+	-fx-fill: rgba(80.0, 80.0, 80.0, 0.0);
+	-fx-stroke: black;
+}
+
+.node-overlay {
+	/*-fx-background-radius: 10 10 0 0;*/
+	-fx-background-color: lightblue;
+	/*linear-gradient(to bottom, rgba(255,255,255,0.7) 15%, rgba(50,100,150,0.45) 100%);*/
+	-fx-border-color: black;
+}
+
+.right-link-handle:hover {
+	-fx-background-radius: 0 0 10 0;
+	-fx-background-color: rgba(255, 255, 255, 0.35);
+}
+
+.left-link-handle:hover {
+	-fx-background-radius: 0 0 0 10;
+	-fx-background-color: rgba(255, 255, 255, 0.35);
+}
+
+.icon-blue {
+	-fx-background-color: blue;
+}
+
+.icon-red {
+	-fx-background-color: red;
+}
+
+.icon-green {
+	-fx-background-color: green;
+}
+
+.icon-black {
+	-fx-background-color: black;
+}
+
+.icon-grey {
+	-fx-background-color: grey;
+}
+
+.icon-yellow {
+	-fx-background-color: yellow;
+}
+
+.icon-purple {
+	-fx-background-color: purple;
+}
+
+.icon-server {
+    -fx-background-image: url("pics/server.png");
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    /*-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 10, 10);*/
+}
+
+.icon-switch-hub {
+    -fx-background-image: url("pics/switch-hub.png");
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
+
+.link-line {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 5, 5);
+}
