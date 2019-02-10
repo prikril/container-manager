@@ -545,7 +545,7 @@ public class RootLayout extends VBox {
                 double posY = getScene().getWindow().getY() + getScene().getWindow().getHeight() / 2;
 
                 Dialog dialog = DialogUtil.createCenteredAlertDialog(AlertType.INFORMATION, "About",
-                        "Copyright by Dominik Prikril\n2018", "More information at <link>", posX, posY);
+                        "Copyright by Dominik Prikril\n2019", "More information at https://github.com/prikril/container-manager", posX, posY);
                 dialog.show();
             }
         });
